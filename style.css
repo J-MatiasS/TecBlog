@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: grey;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: rgb(243, 195, 23);
+}
+
+h3 {
+    color: grey;
+    background-color: #CCC;
+    padding: 5px;
+}
+
+#header {
+    background-color: rgb(243, 195, 23);
+    padding: 15px;
+    text-align: center;
+}
+
+#logo {
+    padding: 10px;
+}
+
+#links {
+    padding: 10px;
+}
+
+#area_principal {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area_postagens {
+    width: 660px;
+    float: left;
+}
+
+#area_lateral {
+    width: 240px;
+    float: right;
+    padding: 10px;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.data_postagem {
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.conteudo_lateral {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem_lateral {
+    font-size: 0.8em;
+    padding: 10px;
+    border-bottom: 1px solid #CCC;
+}
+
+.branco {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header a:link, #header a:visited {
+    color: white;
+    padding: 5px 12px;
+}
+
+#header a:hover {
+    background-color: white;
+    color: rgb(243, 195, 23);
+}
+
+a:link, a:visited {
+    color: rgb(243, 195, 23);
+}
+
+a:hover {
+    text-decoration: underline;
+}
